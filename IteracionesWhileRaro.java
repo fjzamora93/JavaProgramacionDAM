@@ -1,4 +1,3 @@
-package lecciones;
 
 /**
  * @author fjzamora93
@@ -18,7 +17,7 @@ public class IteracionesWhileRaro {
 		numeroLeido = scanner.nextInt();
 		
 		
-		//Este es el while raro de Tomás, que incluye un break
+		//Este es el while raro de Tomás, que incluye un break. No es una forma recomendada por Tomás.
 		while (true) {
 			numeroLeido = scanner.nextInt();
 			if (numeroLeido < 0)
@@ -26,7 +25,7 @@ public class IteracionesWhileRaro {
 			cuantos ++;
 			suma += numeroLeido;
 		}
-				
+		scanner.close();
 
 
 		System.out.println ("ESTADÍSTICAS");

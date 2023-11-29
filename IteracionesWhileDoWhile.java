@@ -1,4 +1,4 @@
-package lecciones;
+
 import java.util.Scanner;
 
 /**
@@ -33,9 +33,8 @@ public class IteracionesWhileDoWhile {
 		System.out.println ("Suma de numerosLeidos: " + suma);
 		System.out.println ("numeros procesados: " + cuantos);
 		
-		
 	
-		System.out.println ("\n UTILIZANDO EL DO WHILE");
+		System.out.println ("\n UTILIZANDO EL DO WHILE (no recomendado por Tomás dada su complejidad)");
 		do {
 			System.out.println ("Itroduce número");
 			numeroLeido = scanner.nextInt();
