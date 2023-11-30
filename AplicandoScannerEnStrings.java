@@ -1,5 +1,3 @@
-package lecciones;
-
 /**
  * @author elgatobarista
  * @since 28-nov
