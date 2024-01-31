@@ -48,6 +48,8 @@ public class IteracionesWhileDoWhile {
 		System.out.println ("ESTADÍSTICAS");
 		System.out.println ("Suma de numerosLeidos: " + suma);
 		System.out.println ("numeros procesados: " + cuantos);
+
+		scanner.close();
 		
 	}
 }

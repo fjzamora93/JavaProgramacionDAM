@@ -18,7 +18,7 @@ public class Documentacion {
 	 *            Valor fecha.
 	 * @return Cadena devuelta.
 	 */
-	public String metodo_Dos(Integer numero, Date fecha) {
+	public String metodoDos(Integer numero) {
 
 		return null;
 	}
